@@ -63,6 +63,9 @@ def pick_folder(slot: str) -> pathlib.Path | None:
     main = QUEUE / f"{today}-{slot}"
     if main.is_dir() and not done(main):
         return main
+    if main.is_dir() and done(main):
+        print(f"{main.name} sudah terposting lebih awal. Tidak ada yang perlu diposting.")
+        return "SELESAI"
     spares = sorted(p for p in QUEUE.glob("cadangan-*") if p.is_dir() and not done(p))
     if spares:
         print(f"Konten {main.name} tidak ada, memakai cadangan {spares[0].name}")
@@ -129,6 +132,8 @@ def main():
         return
     forced = os.environ.get("FOLDER", "").strip()
     folder = (QUEUE / forced) if forced else pick_folder(slot)
+    if folder == "SELESAI":
+        return
     if forced and not folder.is_dir():
         print(f"Folder {forced} tidak ditemukan."); sys.exit(1)
     if not folder:

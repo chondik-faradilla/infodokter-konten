@@ -1,0 +1,56 @@
+name: Autopost INFODOKTER
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 11.30 WIB
+    - cron: "0 12 * * *"   # 19.00 WIB
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Slot konten (siang/malam)"
+        required: true
+        default: "siang"
+      dry_run:
+        description: "1 = uji tanpa memposting"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tentukan slot
+        id: slot
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "slot=${{ github.event.inputs.slot }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 4 * * *" ]; then
+            echo "slot=siang" >> "$GITHUB_OUTPUT"
+          else
+            echo "slot=malam" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Posting
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: python scripts/autopost.py "${{ steps.slot.outputs.slot }}"
+      - name: Simpan status posting
+        if: always()
+        run: |
+          git config user.name "infodokter-bot"
+          git config user.email "infodokter-bot@users.noreply.github.com"
+          git add antrean/*/status.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Status posting ${{ steps.slot.outputs.slot }} $(TZ=Asia/Jakarta date +%F)" && git push)

@@ -123,7 +123,13 @@ def post_threads(text):
 
 def main():
     slot = sys.argv[1] if len(sys.argv) > 1 else ("siang" if datetime.datetime.now(WIB).hour < 15 else "malam")
-    folder = pick_folder(slot)
+    if not CONFIG.get("aktif", False) and not DRY_RUN:
+        print("Autopost belum diaktifkan (config.json: aktif=false). Tidak ada yang diposting.")
+        return
+    forced = os.environ.get("FOLDER", "").strip()
+    folder = (QUEUE / forced) if forced else pick_folder(slot)
+    if forced and not folder.is_dir():
+        print(f"Folder {forced} tidak ditemukan."); sys.exit(1)
     if not folder:
         print("Antrean kosong: tidak ada konten untuk diposting.")
         sys.exit(1)

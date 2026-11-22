@@ -13,7 +13,11 @@ on:
       dry_run:
         description: "1 = uji tanpa memposting"
         required: false
-        default: "0"
+        default: "1"
+      folder:
+        description: "Opsional: nama folder di antrean/ (mis. draf-2026-11-23-siang)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -46,6 +50,7 @@ jobs:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
+          FOLDER: ${{ github.event.inputs.folder }}
         run: python scripts/autopost.py "${{ steps.slot.outputs.slot }}"
       - name: Simpan status posting
         if: always()

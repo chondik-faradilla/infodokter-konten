@@ -1,0 +1,328 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  31,
+  111,
+  209
+ ],
+ "scenes": [
+  {
+   "vo": "Sekitar tujuh puluh tiga persen penderita diabetes di Indonesia belum terdiagnosis.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Dari semua penderita diabetes",
+      "di Indonesia, sekitar"
+     ],
+     "size": 66,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 73,
+     "suffix": "%",
+     "size": 300,
+     "y": 790,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.4,
+     "count": 1.5,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "*belum_terdiagnosis*"
+     ],
+     "size": 96,
+     "y": 1040,
+     "at": 1.2
+    },
+    {
+     "type": "icon",
+     "icon": "meter",
+     "size": 230,
+     "x": 540,
+     "y": 1270,
+     "at": 1.6
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes via Bloomberg Technoz, 14/11/2026",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Artinya, banyak yang merasa baik-baik saja, padahal belum tahu dirinya diabetes.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Artinya..."
+     ],
+     "size": 80,
+     "y": 540,
+     "color": [
+      31,
+      111,
+      209
+     ],
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Banyak yang merasa",
+      "baik-baik saja,"
+     ],
+     "size": 90,
+     "y": 760,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "lines": [
+      "padahal *belum_tahu*",
+      "dirinya diabetes"
+     ],
+     "size": 90,
+     "y": 1060,
+     "at": 2.4
+    }
+   ]
+  },
+  {
+   "vo": "Menurut Kemenkes, salah satu sebabnya: tidak datang periksa ke fasilitas kesehatan.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "clinic",
+     "size": 260,
+     "x": 540,
+     "y": 600,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Salah satu sebabnya:",
+      "*tidak_datang_periksa*",
+      "ke fasilitas kesehatan"
+     ],
+     "size": 82,
+     "y": 1000,
+     "at": 0.4
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes via Bloomberg Technoz, 14/11/2026",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "Dan ini bukan cuma soal keturunan.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-04-mencatat-clipboard",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Bukan cuma soal\nketurunan, lho!"
+    }
+   ]
+  },
+  {
+   "vo": "Yang paling berpengaruh justru pola hidup: pola makan yang berantakan, berat badan berlebih, dan kurang gerak.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Yang paling berpengaruh:",
+      "*pola_hidup* & lingkungan"
+     ],
+     "size": 76,
+     "y": 470,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "food",
+     "text": "Pola makan\nberantakan",
+     "y": 780,
+     "h": 210,
+     "at": 2.0,
+     "from": -1,
+     "accent": [
+      240,
+      150,
+      60
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "scale",
+     "text": "Berat badan\nberlebih (obesitas)",
+     "y": 1030,
+     "h": 210,
+     "at": 3.6,
+     "from": 1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "walk",
+     "text": "Kurang gerak",
+     "y": 1280,
+     "h": 210,
+     "at": 5.0,
+     "from": -1
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Bloomberg Technoz (14/11/2026); CNA Indonesia",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Lebih baik tahu sekarang, daripada nanti.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-01-jempol-semangat",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Lebih baik tahu\nsekarang daripada nanti"
+    }
+   ]
+  },
+  {
+   "vo": "Mulai hari ini: cek gula darah di puskesmas atau faskes terdekat, kurangi yang manis-manis, dan bergerak aktif setiap hari.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Mulai *hari_ini:*"
+     ],
+     "size": 92,
+     "y": 430,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "meter",
+     "text": "Cek gula darah di\npuskesmas/faskes terdekat",
+     "y": 690,
+     "h": 210,
+     "size": 44,
+     "at": 0.9,
+     "from": -1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "food",
+     "text": "Kurangi minuman\ndan makanan manis",
+     "y": 950,
+     "h": 210,
+     "size": 48,
+     "at": 3.6,
+     "from": 1,
+     "accent": [
+      240,
+      150,
+      60
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "walk",
+     "text": "Bergerak aktif\nsetiap hari",
+     "y": 1210,
+     "h": 210,
+     "size": 48,
+     "at": 5.4,
+     "from": -1
+    }
+   ]
+  },
+  {
+   "vo": "Kapan terakhir kamu cek gula darah? Jawab di kolom komentar, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Kapan *terakhir* kamu",
+      "cek gula darah?"
+     ],
+     "size": 86,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Jawab di kolom komentar"
+     ],
+     "size": 58,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ],
+     "y": 800,
+     "at": 1.0
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 1.6
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "CEK SEKARANG",
+  "lines": [
+   "73% penderita",
+   "*tidak_tahu*",
+   "dirinya diabetes"
+  ],
+  "pose": "dokter-04-mencatat-clipboard",
+  "accent": [
+   31,
+   111,
+   209
+  ],
+  "badge": [
+   "73%",
+   "belum terdiagnosis"
+  ]
+ },
+ "caption": "Sekitar 73% penderita diabetes di Indonesia belum terdiagnosis. Artinya, banyak yang belum tahu dirinya diabetes 😟\n\nMenurut Kemenkes, salah satu sebabnya karena tidak datang periksa ke fasilitas kesehatan. Dan menurut dokter spesialis endokrin, yang paling berpengaruh bukan cuma keturunan, tapi pola hidup & lingkungan:\n🍩 Pola makan berantakan\n⚖️ Berat badan berlebih\n🛋️ Kurang gerak\n\nMulai hari ini:\n✅ Cek gula darah di puskesmas atau faskes terdekat\n✅ Kurangi minuman dan makanan manis\n✅ Bergerak aktif setiap hari\n\nKapan terakhir kamu cek gula darah? Jawab di komentar 👇 Tag keluarga yang perlu diingatkan.\n\nSumber: Kemenkes RI & Dr. dr. Wismandari Wisnu, Sp.PD-KEMD (dikutip Bloomberg Technoz, 14/11/2026).\n\n#Diabetes #CekGulaDarah #GulaDarah #HidupSehat #PencegahanDiabetes #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Pertanyaan serius tapi santai: kapan terakhir kamu cek gula darah? 🩸\n\na) Bulan ini\nb) Tahun lalu\nc) Lupa… atau belum pernah sama sekali 😅\n\nJawab pakai huruf aja di komentar. Penasaran mayoritas di sini yang mana.\n"
+}

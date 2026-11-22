@@ -115,7 +115,8 @@ def post_facebook(folder, ptoken, caption):
 
 
 def post_threads(text):
-    uid, tok = os.environ["THREADS_USER_ID"], os.environ["THREADS_TOKEN"]
+    tok = os.environ["THREADS_TOKEN"].strip()
+    uid = (os.environ.get("THREADS_USER_ID") or "").strip() or call("GET", f"{THREADS}/me", fields="id", access_token=tok)["id"]
     c = call("POST", f"{THREADS}/{uid}/threads", media_type="TEXT", text=text, access_token=tok)["id"]
     time.sleep(10)
     return call("POST", f"{THREADS}/{uid}/threads_publish", creation_id=c, access_token=tok)["id"]
@@ -141,7 +142,7 @@ def main():
         print("DRY_RUN: tidak memposting. Video:", public_url(folder / "video.mp4"))
         return
 
-    token = os.environ["META_TOKEN"]
+    token = os.environ["META_TOKEN"].strip()
     errors = []
 
     if "instagram" not in status:

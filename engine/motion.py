@@ -486,7 +486,65 @@ def load_vo(path):
     return data
 
 
+AUDIO_DIR = HERE / "assets" / "audio"
+SFX_FILES = {"whoosh": "whoosh_cepat.wav", "swish": "swish.wav", "pop": "bubble_pop.wav", "pop_maskot": "pop.wav",
+             "ding": "proper_ding.wav", "ticks": "hitung_digital.wav", "hit": "boom.wav"}
+
+
+@lru_cache(maxsize=16)
+def load_audio(path):
+    """Dekode file audio apa pun ke mono float 44.1 kHz lewat ffmpeg."""
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-f", "s16le", "-ac", "1", "-ar", str(SR), "-"],
+                         capture_output=True, check=True).stdout
+    return np.frombuffer(raw, dtype=np.int16).astype(np.float64) / 32768
+
+
+def library_audio(spec, path):
+    """Musik latar + SFX dari pustaka MARKBro, VO di atasnya."""
+    n = int(spec["duration"] * SR)
+    out = np.zeros(n)
+    music = load_audio(AUDIO_DIR / "musik" / spec["music"])
+    start = int(spec.get("music_start", 4.0) * SR)  # lewati intro musik
+    seg = music[start:start + n]
+    if len(seg) < n:
+        seg = np.concatenate([seg, np.zeros(n - len(seg))])
+    fi, fo = int(0.8 * SR), int(2.5 * SR)
+    seg[:fi] *= np.linspace(0, 1, fi)
+    seg[-fo:] *= np.linspace(1, 0, fo)
+    has_vo = bool(spec.get("vo_path"))
+    out += seg / (np.max(np.abs(seg)) + 1e-9) * (0.13 if has_vo else 0.45)
+
+    def add(at, sig, gain):
+        s0 = int(max(0, at) * SR)
+        if s0 >= n:
+            return
+        L = min(len(sig), n - s0)
+        out[s0:s0 + L] += gain * sig[:L] / (np.max(np.abs(sig)) + 1e-9)
+
+    for cue in spec["cues"]:
+        kind, at = cue["sfx"], cue["t"]
+        if kind == "ticks":
+            tick = load_audio(AUDIO_DIR / "sfx" / SFX_FILES["ticks"])
+            reps = int(np.ceil(cue.get("dur", 1.5) / (len(tick) / SR)))
+            add(at, np.tile(tick, reps)[:int(cue.get("dur", 1.5) * SR)], 0.18)
+        elif kind in SFX_FILES:
+            gain = {"whoosh": 0.22, "pop": 0.25, "pop_maskot": 0.3, "ding": 0.25, "hit": 0.35, "swish": 0.2}[kind]
+            add(at - (0.25 if kind == "whoosh" else 0), load_audio(AUDIO_DIR / "sfx" / SFX_FILES[kind]), gain)
+    if has_vo:
+        vo = load_vo(spec["vo_path"])
+        vo = vo / (np.max(np.abs(vo)) + 1e-9) * 0.9
+        s0 = int(spec.get("vo_offset", 0.3) * SR)
+        L = min(len(vo), n - s0)
+        out[s0:s0 + L] += vo[:L]
+    out = out / (np.max(np.abs(out)) + 1e-9) * 0.89
+    with wave.open(str(path), "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
+        w.writeframes((out * 32767).astype(np.int16).tobytes())
+
+
 def synth_audio(spec, path):
+    if spec.get("music") and (AUDIO_DIR / "musik" / spec["music"]).exists():
+        return library_audio(spec, path)
     n = int(spec["duration"] * SR)
     t = np.arange(n) / SR
     out = np.zeros(n)

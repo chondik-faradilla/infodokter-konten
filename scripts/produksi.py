@@ -45,7 +45,7 @@ def write_wav(path, pcm, sr):
 
 
 def tts_gemini(text, voice, style, out):
-    key = os.environ.get("GEMINI_API_KEY")
+    key = (os.environ.get("GEMINI_API_KEY") or "").strip()
     if not key:
         raise RuntimeError("GEMINI_API_KEY tidak ada")
     body = {
@@ -145,13 +145,17 @@ def build_spec(spec, scenes):
                 if isinstance(e.get(k), list):
                     e[k] = tuple(e[k])
             els.append(e)
-            if e["type"] in ("mascot", "card"):
+            if e["type"] == "mascot":
+                cues.append({"sfx": "pop_maskot", "t": e["start"] + 0.15})
+            if e["type"] == "card":
                 cues.append({"sfx": "pop", "t": e["start"] + 0.1})
             if e["type"] == "number":
                 cues.append({"sfx": "ticks", "t": e["start"], "dur": e.get("count", 1.5)})
             if e["type"] == "logo":
                 cues.append({"sfx": "ding", "t": e["start"]})
-    return {"duration": scenes[-1][1], "accent": tuple(spec.get("accent", motion.TURQ)), "scenes": scenes,
+    musics = sorted(p.name for p in (ROOT / "engine" / "assets" / "audio" / "musik").glob("*.mp3"))
+    music = spec.get("music") or (musics[sum(map(ord, spec["scenes"][0]["vo"])) % len(musics)] if musics else None)
+    return {"duration": scenes[-1][1], "music": music, "accent": tuple(spec.get("accent", motion.TURQ)), "scenes": scenes,
             "elements": els, "cues": cues}
 
 
@@ -197,7 +201,7 @@ def produce(folder):
     (out / "caption.txt").write_text(spec["caption"].strip() + "\n", encoding="utf-8")
     if spec.get("threads"):
         (out / "threads.txt").write_text(spec["threads"].strip() + "\n", encoding="utf-8")
-    (out / "produksi.json").write_text(json.dumps({"vo": engine_used, "durasi": built["duration"], "scenes": scenes}, indent=1))
+    (out / "produksi.json").write_text(json.dumps({"vo": engine_used, "musik": built.get("music"), "durasi": built["duration"], "scenes": scenes}, indent=1))
     # still QA
     for name, t in [("qa_awal", 1.5), ("qa_maskot1", None), ("qa_akhir", built["duration"] - 1)]:
         if t is None:

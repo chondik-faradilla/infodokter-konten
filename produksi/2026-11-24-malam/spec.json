@@ -1,0 +1,374 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  31,
+  111,
+  209
+ ],
+ "scenes": [
+  {
+   "vo": "Organisasi Kesehatan Dunia memperkirakan, bakteri kebal obat bisa menyebabkan tiga puluh sembilan juta kematian hingga tahun dua ribu lima puluh.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Bakteri kebal obat bisa",
+      "menyebabkan sekitar"
+     ],
+     "size": 66,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 39,
+     "size": 300,
+     "y": 780,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.6,
+     "count": 1.2,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "*juta* kematian hingga 2050"
+     ],
+     "size": 80,
+     "y": 1030,
+     "at": 1.6
+    },
+    {
+     "type": "icon",
+     "icon": "shield",
+     "size": 220,
+     "x": 540,
+     "y": 1270,
+     "at": 2.0
+    },
+    {
+     "type": "source",
+     "text": "Sumber: WHO via HaiBunda, 18/11/2026",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Salah satu pemicunya, ternyata kebiasaan kita sendiri saat minum antibiotik.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Salah satu pemicunya..."
+     ],
+     "size": 72,
+     "y": 540,
+     "at": 0.1,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "text",
+     "lines": [
+      "*kebiasaan* kita sendiri"
+     ],
+     "size": 90,
+     "y": 800,
+     "at": 1.4
+    },
+    {
+     "type": "text",
+     "lines": [
+      "saat minum antibiotik"
+     ],
+     "size": 84,
+     "y": 1040,
+     "at": 3.4
+    }
+   ]
+  },
+  {
+   "vo": "Antibiotik yang dipakai sembarangan membuat bakteri makin kebal. Akhirnya, obatnya bisa tidak mempan lagi.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "clinic",
+     "size": 250,
+     "x": 360,
+     "y": 610,
+     "at": 0.1
+    },
+    {
+     "type": "icon",
+     "icon": "shield",
+     "size": 250,
+     "x": 730,
+     "y": 620,
+     "at": 0.5
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Dipakai sembarangan,",
+      "bakteri makin *kebal*"
+     ],
+     "size": 84,
+     "y": 990,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Obatnya bisa tidak mempan lagi"
+     ],
+     "size": 56,
+     "y": 1230,
+     "at": 5.2,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "Yuk, cek tiga mitos yang sering dipercaya.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-11-bingung-bertanya",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Mitos atau fakta?\nYuk, cek bareng!"
+    }
+   ]
+  },
+  {
+   "vo": "Flu dan batuk pilek butuh antibiotik. Sudah enakan, boleh berhenti sendiri. Sisa antibiotik boleh disimpan atau dibagi. Semuanya keliru.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Tiga *mitos* yang keliru:"
+     ],
+     "size": 82,
+     "y": 440,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "drop",
+     "text": "Flu & batuk pilek\nbutuh antibiotik",
+     "y": 780,
+     "h": 210,
+     "at": 0.4,
+     "from": -1,
+     "accent": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "calendar",
+     "text": "Sudah enakan,\nboleh berhenti sendiri",
+     "y": 1030,
+     "h": 210,
+     "at": 3.0,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "lid",
+     "text": "Sisa antibiotik boleh\ndisimpan atau dibagi",
+     "y": 1280,
+     "h": 210,
+     "at": 6.0,
+     "from": -1,
+     "size": 46,
+     "accent": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI; Unit Kesehatan IPB, 18/11/2026",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Ingat, flu disebabkan virus, bukan bakteri.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-09-oke-mengedip",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Flu itu virus,\nbukan bakteri!"
+    }
+   ]
+  },
+  {
+   "vo": "Pakai antibiotik hanya dengan resep dokter. Ikuti petunjuk dokter sampai tuntas. Jangan pakai obat sisa atau beli bebas. Dan jangan ragu bertanya, kenapa perlu antibiotik.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Pakai dengan *bijak:*"
+     ],
+     "size": 92,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "clinic",
+     "text": "Hanya dengan\nresep dokter",
+     "y": 650,
+     "h": 190,
+     "at": 0.6,
+     "from": -1,
+     "size": 50,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "calendar",
+     "text": "Ikuti petunjuk dokter\nsampai tuntas",
+     "y": 870,
+     "h": 190,
+     "at": 3.5,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Jangan pakai sisa\natau beli bebas",
+     "y": 1090,
+     "h": 190,
+     "at": 6.3,
+     "from": -1,
+     "size": 50
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Tanya dokter: kenapa\nperlu antibiotik?",
+     "y": 1310,
+     "h": 190,
+     "at": 9.2,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Kamu pernah minum antibiotik tanpa resep? Jawab jujur di kolom komentar, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Pernah minum antibiotik",
+      "*tanpa_resep?*"
+     ],
+     "size": 84,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Jawab jujur di kolom komentar"
+     ],
+     "size": 56,
+     "y": 800,
+     "at": 3.2,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 3.6
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "MITOS VS FAKTA",
+  "lines": [
+   "Flu minum",
+   "*antibiotik?*",
+   "Tunggu dulu!"
+  ],
+  "pose": "dokter-11-bingung-bertanya",
+  "accent": [
+   31,
+   111,
+   209
+  ],
+  "badge": [
+   "39 juta",
+   "proyeksi kematian AMR hingga 2050"
+  ]
+ },
+ "caption": "Flu langsung minum antibiotik? Tunggu dulu 🤔 WHO memperkirakan bakteri kebal obat (resistensi antimikroba) bisa menyebabkan sekitar 39 juta kematian hingga 2050.\n\nSalah satu pemicunya: antibiotik yang dipakai sembarangan, sehingga bakteri makin kebal dan obatnya bisa tidak mempan lagi.\n\n3 mitos yang keliru:\n❌ Flu & batuk pilek butuh antibiotik (flu disebabkan virus, antibiotik tidak bekerja melawan virus)\n❌ Sudah enakan, boleh berhenti sendiri\n❌ Sisa antibiotik boleh disimpan atau dibagi\n\nPakai antibiotik dengan bijak:\n✅ Hanya dengan resep dokter\n✅ Ikuti petunjuk dokter sampai tuntas\n✅ Jangan pakai obat sisa atau beli bebas\n✅ Jangan ragu bertanya ke dokter kenapa perlu antibiotik\n\n18–24 November adalah Pekan Kesadaran Antimikroba Sedunia. Bagikan ke grup keluarga, siapa tahu masih ada yang menyimpan antibiotik sisa di laci 👇\n\nSumber: WHO (dikutip HaiBunda, 18/11/2026); Kementerian Kesehatan RI; Unit Kesehatan IPB (18/11/2026).\n\n#Antibiotik #ResistensiAntimikroba #Superbug #BijakAntibiotik #MitosKesehatan #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Ngaku deh: pernah minta antibiotik waktu flu, atau berhenti minum begitu badan udah enakan? 💊\n\na) Pernah dua-duanya 😅\nb) Pernah salah satunya\nc) Nggak pernah, selalu ikut kata dokter\n\nJawab pakai huruf aja di komentar. Penasaran mayoritas di sini tim yang mana.\n"
+}

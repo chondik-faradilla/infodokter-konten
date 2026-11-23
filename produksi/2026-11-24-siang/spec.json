@@ -1,0 +1,371 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  226,
+  76,
+  75
+ ],
+ "scenes": [
+  {
+   "vo": "Sepanjang tahun ini, sudah ada lima ratus tujuh puluh enam kasus leptospirosis di Daerah Istimewa Yogyakarta.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Sepanjang 2026, di DIY ada"
+     ],
+     "size": 70,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 576,
+     "size": 280,
+     "y": 770,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.4,
+     "count": 1.5,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "kasus *leptospirosis*"
+     ],
+     "size": 88,
+     "y": 1010,
+     "at": 1.4
+    },
+    {
+     "type": "icon",
+     "icon": "drop",
+     "size": 230,
+     "x": 540,
+     "y": 1260,
+     "at": 1.8
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Dinkes DIY via Disway Jogja, 6/11/2026",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Dua puluh tiga orang meninggal dunia. Kasusnya tercatat di semua kabupaten dan kota di provinsi itu.",
+   "elements": [
+    {
+     "type": "number",
+     "value": 23,
+     "size": 300,
+     "y": 620,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.1,
+     "count": 1.0,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "orang meninggal dunia"
+     ],
+     "size": 78,
+     "y": 880,
+     "at": 0.5
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Tercatat di *semua*",
+      "kabupaten/kota di DIY"
+     ],
+     "size": 82,
+     "y": 1170,
+     "at": 2.6
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Dinkes DIY via Disway Jogja, 6/11/2026",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "vo": "Bakteri leptospira menyebar lewat kencing tikus yang mencemari genangan air dan lumpur. Lalu masuk ke tubuh lewat luka di kulit.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "drop",
+     "size": 250,
+     "x": 360,
+     "y": 610,
+     "at": 0.1
+    },
+    {
+     "type": "icon",
+     "icon": "walk",
+     "size": 250,
+     "x": 730,
+     "y": 620,
+     "at": 0.5
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Kencing tikus mencemari",
+      "*genangan_air* & lumpur"
+     ],
+     "size": 82,
+     "y": 990,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Masuk lewat luka di kulit"
+     ],
+     "size": 56,
+     "y": 1230,
+     "at": 6.2,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI (Artikel Leptospirosis)",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "Masalahnya, gejalanya sering mirip penyakit lain.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-02-tangan-bersedekap",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Gejalanya sering\nmirip penyakit lain"
+    }
+   ]
+  },
+  {
+   "vo": "Waspadai demam tinggi mendadak, nyeri otot terutama di betis, dan mata merah.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Waspadai *gejala* ini:"
+     ],
+     "size": 86,
+     "y": 430,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "meter",
+     "text": "Demam tinggi\nmendadak",
+     "y": 780,
+     "h": 210,
+     "at": 0.8,
+     "from": -1
+    },
+    {
+     "type": "card",
+     "icon": "walk",
+     "text": "Nyeri otot,\nterutama di betis",
+     "y": 1030,
+     "h": 210,
+     "at": 2.6,
+     "from": 1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Mata merah",
+     "y": 1280,
+     "h": 210,
+     "at": 4.6,
+     "from": -1,
+     "accent": [
+      240,
+      150,
+      60
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI, 26/6/2025",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Kabar baiknya, pencegahannya sederhana.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-07-menjelaskan-presentasi",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Kabar baiknya,\npencegahannya simpel!"
+    }
+   ]
+  },
+  {
+   "vo": "Pakai alas kaki atau sepatu bot. Hindari genangan dan lumpur tanpa pelindung. Cuci kaki dan tangan pakai sabun. Dan jaga rumah bebas tikus.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Cegah *leptospirosis:*"
+     ],
+     "size": 88,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "walk",
+     "text": "Pakai alas kaki\natau sepatu bot",
+     "y": 650,
+     "h": 190,
+     "at": 0.4,
+     "from": -1,
+     "size": 50,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Hindari genangan &\nlumpur tanpa pelindung",
+     "y": 870,
+     "h": 190,
+     "at": 2.7,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "drop",
+     "text": "Cuci kaki & tangan\npakai sabun",
+     "y": 1090,
+     "h": 190,
+     "at": 6.0,
+     "from": -1,
+     "size": 50
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Jaga rumah\nbebas tikus",
+     "y": 1310,
+     "h": 190,
+     "at": 8.6,
+     "from": 1,
+     "size": 50,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI (Artikel Leptospirosis)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Demam setelah kena banjir atau genangan? Segera periksa ke faskes. Bagikan ke keluarga, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Demam setelah kena",
+      "*banjir?* Segera periksa"
+     ],
+     "size": 80,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Bagikan ke keluarga & tetangga"
+     ],
+     "size": 56,
+     "y": 800,
+     "at": 3.4,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 3.8
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "WASPADA KENCING TIKUS",
+  "lines": [
+   "Bahaya di balik",
+   "*genangan_air*"
+  ],
+  "pose": "dokter-02-tangan-bersedekap",
+  "accent": [
+   226,
+   76,
+   75
+  ],
+  "badge": [
+   "576",
+   "kasus leptospirosis DIY 2026"
+  ]
+ },
+ "caption": "576 kasus leptospirosis tercatat di DIY sepanjang 2026, dan 23 orang meninggal dunia 😢 Kasusnya ada di semua kabupaten/kota.\n\nLeptospirosis disebabkan bakteri Leptospira yang menyebar lewat kencing tikus. Bakteri ini mencemari genangan air dan lumpur, lalu masuk lewat luka di kulit. Gejalanya sering mirip penyakit lain, jadi waspadai:\n🌡️ Demam tinggi mendadak\n🦵 Nyeri otot, terutama di betis\n👁️ Mata merah\n\nCara mencegahnya:\n✅ Pakai alas kaki atau sepatu bot\n✅ Hindari genangan & lumpur tanpa pelindung\n✅ Cuci kaki & tangan pakai sabun setelah kena genangan\n✅ Jaga rumah bebas tikus\n\nKalau demam setelah kena banjir atau genangan, jangan ditunda, segera periksa ke fasilitas kesehatan terdekat.\n\nSimpan dan bagikan ke keluarga, terutama yang sering ke sawah, kebun, atau kerja bakti 👇\n\nSumber: Dinkes DIY (dikutip Disway Jogja, 6/11/2026); Dinkes Gunungkidul & Dinkes Kota Jogja (Radar Jogja, 16–18/11/2026); Kementerian Kesehatan RI.\n\n#Leptospirosis #KencingTikus #MusimHujan #Banjir #InfoKesehatan #EdukasiKesehatan #Jogja #infodokter #inidokterku\n",
+ "threads": "Pernah nggak, habis kerja bakti atau kena banjir, langsung cuci kaki pakai sabun? 🦶\n\nTernyata kencing tikus di genangan air bisa bawa bakteri leptospira, dan masuknya lewat luka kecil di kulit.\n\nJujur aja: kamu tim pakai sepatu bot, atau tim nyeker? Ceritain di komentar 👇\n"
+}

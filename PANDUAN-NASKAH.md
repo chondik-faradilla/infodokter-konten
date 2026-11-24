@@ -69,3 +69,9 @@ Area aman: konten di `y` 400–1500. Tata letak baku kartu: 3 kartu → y 690/96
 2. Uji cepat lokal (opsional, tanpa VO): `python3 scripts/produksi.py <folder>` lalu hapus `antrean/<folder>` dan `.work` sebelum commit (biar GitHub yang memproduksi dengan Gemini).
 3. Commit hanya `produksi/`, `sumber/`. Push ke `main`.
 4. Tunggu run **Produksi video INFODOKTER** selesai, cek `antrean/<folder>/produksi.json` (`"vo": "gemini"` diharapkan) dan `qa_*.jpg`.
+
+## 6. VO dari Sulap Suara (opsional, menggantikan Gemini)
+- Setiap produksi menulis `antrean/<folder>/naskah-vo.txt`: teks VO siap tempel ke Sulap Suara (paragraf = scene, beri jeda antar paragraf).
+- Hasil unduhan Sulap Suara (folder Download laptop) disalin ke `produksi/<folder>/vo.mp3` (boleh .wav/.m4a/.ogg/.webm/.aac), lalu commit & push.
+- Workflow produksi otomatis merender ulang folder itu memakai VO tersebut (`"vo": "sulap-suara"` di `produksi.json`). Tanpa file `vo.*`, jalur lama (Gemini → Piper) tetap dipakai, jadi posting tidak pernah gagal.
+- Batas waktu: VO harus masuk sebelum ±11.00 WIB (slot siang) dan ±18.30 WIB (slot malam) agar sempat dirender sebelum autopost.

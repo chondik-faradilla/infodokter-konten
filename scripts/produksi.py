@@ -167,6 +167,26 @@ def check_mascot(built):
         raise RuntimeError("Aturan brand: maskot harus tepat 2 kali")
 
 
+VO_EXT = (".wav", ".mp3", ".m4a", ".ogg", ".webm", ".aac")
+
+
+def vo_siap(src):
+    """VO jadi dari Sulap Suara (diambil dari folder Download laptop) bila ada: produksi/<folder>/vo.<ext>."""
+    for ext in VO_EXT:
+        f = src / f"vo{ext}"
+        if f.exists():
+            return f
+    return None
+
+
+def pakai_vo_siap(f, out):
+    # ubah ke wav mono 24 kHz, buang hening di awal & akhir
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(f), "-ac", "1", "-ar", "24000", "-af",
+                    "silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+                    "silenceremove=start_periods=1:start_threshold=-45dB,areverse", str(out)], check=True)
+    print(f"VO: Sulap Suara ({f.name})")
+
+
 def produce(folder):
     src = ROOT / "produksi" / folder
     spec = json.loads((src / "spec.json").read_text(encoding="utf-8"))
@@ -178,12 +198,18 @@ def produce(folder):
     script = " \n\n".join(lafal(s["vo"]) for s in spec["scenes"])
     vo = work / "vo.wav"
     engine_used = "gemini"
-    try:
-        tts_gemini(script, spec.get("voice", "Achernar"), spec.get("vo_style", "Bacakan dengan hangat, tenang, dan jelas."), vo)
-    except Exception as e:  # noqa: BLE001
-        print(f"Gemini TTS tidak tersedia ({e}). Pakai cadangan Piper.")
-        tts_piper(script, vo)
-        engine_used = "piper"
+    (out / "naskah-vo.txt").write_text(script + "\n", encoding="utf-8")
+    siap = vo_siap(src)
+    if siap:
+        pakai_vo_siap(siap, vo)
+        engine_used = "sulap-suara"
+    else:
+        try:
+            tts_gemini(script, spec.get("voice", "Achernar"), spec.get("vo_style", "Bacakan dengan hangat, tenang, dan jelas."), vo)
+        except Exception as e:  # noqa: BLE001
+            print(f"Gemini TTS tidak tersedia ({e}). Pakai cadangan Piper.")
+            tts_piper(script, vo)
+            engine_used = "piper"
 
     offset = 0.3
     scenes = scene_times(spec, wav_duration(vo), vo, offset)
@@ -210,9 +236,23 @@ def produce(folder):
     print(f"Selesai: antrean/{folder} ({built['duration']:.1f} dtk, VO {engine_used})")
 
 
+def perlu_produksi(p):
+    if not (p / "spec.json").exists():
+        return False
+    hasil = ROOT / "antrean" / p.name
+    if not (hasil / "video.mp4").exists():
+        return True
+    # VO Sulap Suara baru masuk setelah video versi Gemini jadi -> render ulang dengan VO itu
+    if vo_siap(p):
+        try:
+            return json.loads((hasil / "produksi.json").read_text()).get("vo") != "sulap-suara"
+        except Exception:  # noqa: BLE001
+            return True
+    return False
+
+
 def main():
-    targets = sys.argv[1:] or [p.name for p in sorted((ROOT / "produksi").iterdir())
-                               if (p / "spec.json").exists() and not (ROOT / "antrean" / p.name / "video.mp4").exists()]
+    targets = sys.argv[1:] or [p.name for p in sorted((ROOT / "produksi").iterdir()) if perlu_produksi(p)]
     if not targets:
         print("Tidak ada naskah baru untuk diproduksi.")
     for f in targets:

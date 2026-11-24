@@ -1,0 +1,375 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  226,
+  76,
+  75
+ ],
+ "scenes": [
+  {
+   "vo": "Hingga awal November, Kemenkes mencatat lebih dari empat ratus ribu kasus ISPA di wilayah terdampak kebakaran hutan dan lahan.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Hingga awal November"
+     ],
+     "size": 70,
+     "y": 500,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 401586,
+     "size": 230,
+     "y": 740,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.5,
+     "count": 1.8
+    },
+    {
+     "type": "text",
+     "lines": [
+      "kasus *ISPA* akibat",
+      "asap karhutla"
+     ],
+     "size": 84,
+     "y": 1010,
+     "at": 2.4
+    },
+    {
+     "type": "icon",
+     "icon": "meter",
+     "size": 240,
+     "x": 540,
+     "y": 1300,
+     "at": 3.2,
+     "rot": 4
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes via NU Online, 5/11/2026 (data per 2/11)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Hampir sembilan puluh dua ribu di antaranya balita. Tersebar di tujuh provinsi di Sumatra dan Kalimantan.",
+   "elements": [
+    {
+     "type": "number",
+     "value": 91913,
+     "size": 240,
+     "y": 620,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.1,
+     "count": 1.4
+    },
+    {
+     "type": "text",
+     "lines": [
+      "di antaranya *balita*"
+     ],
+     "size": 84,
+     "y": 870,
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Tersebar di 7 provinsi",
+      "Sumatra & Kalimantan"
+     ],
+     "size": 64,
+     "y": 1150,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ],
+     "at": 3.4
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes via NU Online, 5/11/2026 (data per 2/11)",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "vo": "Asap kebakaran membawa partikel sangat halus. Partikel ini mudah terhirup dan mengganggu saluran napas.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "meter",
+     "size": 280,
+     "x": 360,
+     "y": 620,
+     "at": 0.1
+    },
+    {
+     "type": "icon",
+     "icon": "walk",
+     "size": 240,
+     "x": 740,
+     "y": 640,
+     "at": 0.5,
+     "rot": -4
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Asap membawa",
+      "*partikel_halus*"
+     ],
+     "size": 88,
+     "y": 990,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Mudah terhirup ke saluran napas"
+     ],
+     "size": 54,
+     "y": 1230,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ],
+     "at": 3.6
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI, 21/8/2026",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "Siapa yang paling perlu dilindungi?",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-07-menjelaskan-presentasi",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Siapa yang paling\nperlu dilindungi?"
+    }
+   ]
+  },
+  {
+   "vo": "Anak-anak dan balita. Ibu hamil. Serta lansia dan orang dengan asma atau penyakit paru.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Kelompok paling *rentan:*"
+     ],
+     "size": 82,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Anak-anak\n& balita",
+     "y": 690,
+     "h": 220,
+     "at": 0.4,
+     "from": -1
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Ibu hamil",
+     "y": 960,
+     "h": 220,
+     "at": 2.1,
+     "from": 1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "clinic",
+     "text": "Lansia, penderita\nasma & penyakit paru",
+     "y": 1230,
+     "h": 220,
+     "at": 3.2,
+     "from": -1,
+     "size": 46
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI, 21/8/2026",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Masker adalah garis pertahanan pertama.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-13-masker-jempol",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Masker itu\npertahanan pertama!"
+    }
+   ]
+  },
+  {
+   "vo": "Pakai masker saat kualitas udara memburuk. Kurangi aktivitas di luar ruangan. Tutup rapat jendela saat asap pekat. Kalau sesak napas atau nyeri dada, segera ke puskesmas atau rumah sakit.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Lindungi *napasmu:*"
+     ],
+     "size": 92,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Pakai masker saat\nudara memburuk",
+     "y": 650,
+     "h": 190,
+     "size": 50,
+     "at": 0.4,
+     "from": -1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "walk",
+     "text": "Kurangi aktivitas\ndi luar ruangan",
+     "y": 870,
+     "h": 190,
+     "size": 50,
+     "at": 3.3,
+     "from": 1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "lid",
+     "text": "Tutup rapat jendela\nsaat asap pekat",
+     "y": 1090,
+     "h": 190,
+     "size": 50,
+     "at": 5.9,
+     "from": -1
+    },
+    {
+     "type": "card",
+     "icon": "clinic",
+     "text": "Sesak / nyeri dada?\nSegera ke faskes",
+     "y": 1310,
+     "h": 190,
+     "size": 50,
+     "at": 8.2,
+     "from": 1,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI, 21 & 26/8/2026",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Bagaimana kualitas udara di daerahmu minggu ini? Cerita di kolom komentar, dan bagikan ke keluarga, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Udara di daerahmu",
+      "*minggu_ini* gimana?"
+     ],
+     "size": 84,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Cerita di komentar & bagikan"
+     ],
+     "size": 56,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ],
+     "y": 800,
+     "at": 3.6
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 4.2
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "WASPADA ASAP KARHUTLA",
+  "lines": [
+   "400 ribu kena ISPA,",
+   "*balita* paling banyak"
+  ],
+  "pose": "dokter-13-masker-jempol",
+  "accent": [
+   226,
+   76,
+   75
+  ],
+  "badge": [
+   "401.586",
+   "kasus ISPA karhutla"
+  ]
+ },
+ "caption": "Lebih dari 400 ribu kasus ISPA tercatat di wilayah terdampak kebakaran hutan dan lahan 😷 Menurut Kemenkes, ada 401.586 kasus di 7 provinsi (data per 2 November 2026), dan 91.913 di antaranya balita.\n\nAsap kebakaran membawa partikel sangat halus yang mudah terhirup dan mengganggu saluran napas.\n\nKelompok paling rentan:\n👶 Anak-anak & balita\n🤰 Ibu hamil\n👵 Lansia, penderita asma & penyakit paru\n\nLindungi napasmu:\n✅ Pakai masker saat kualitas udara memburuk\n✅ Kurangi aktivitas di luar ruangan\n✅ Tutup rapat jendela saat asap pekat\n✅ Pantau indeks kualitas udara di daerahmu\n\nKalau muncul sesak napas, batuk menetap, nyeri dada, atau iritasi mata berat, jangan ditunda, segera ke puskesmas atau rumah sakit terdekat.\n\nSimpan dan bagikan ke keluarga yang tinggal di daerah berasap 👇\n\nSumber: Kementerian Kesehatan RI (dikutip NU Online, 5/11/2026; data per 2/11/2026); Kemenkes RI, rilis 21/8/2026 dan 26/8/2026.\n\n#ISPA #Karhutla #KabutAsap #KualitasUdara #PakaiMasker #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Kalau udara di luar lagi berasap, kamu biasanya ngapain? 😷\n\na) Tetap keluar, paling pakai masker\nb) Di rumah aja, jendela ditutup rapat\nc) Cuek, udah biasa\n\nJawab pakai huruf di komentar. Sekalian cerita, udara di daerahmu minggu ini gimana?\n"
+}

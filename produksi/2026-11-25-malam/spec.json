@@ -1,0 +1,368 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  31,
+  111,
+  209
+ ],
+ "scenes": [
+  {
+   "vo": "Musim hujan, jemuran susah kering. Tapi memakai baju yang belum benar-benar kering bisa memicu tiga masalah kulit.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Baju belum kering, tetap",
+      "dipakai? Bisa memicu"
+     ],
+     "size": 66,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 3,
+     "size": 300,
+     "y": 790,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 2.4,
+     "count": 0.8,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "*masalah_kulit*"
+     ],
+     "size": 90,
+     "y": 1040,
+     "at": 3.0
+    },
+    {
+     "type": "icon",
+     "icon": "drop",
+     "size": 220,
+     "x": 540,
+     "y": 1280,
+     "at": 3.6,
+     "rot": 4
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Sp.DVE via Kaltim Post, 24/11/2026",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Banyak yang mengira, nanti juga kering sendiri di badan. Padahal, kebiasaan ini sebaiknya dihentikan.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "\"Nanti juga kering",
+      "sendiri di badan\""
+     ],
+     "size": 80,
+     "y": 620,
+     "at": 0.1,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Kebiasaan ini *sebaiknya*",
+      "*dihentikan*"
+     ],
+     "size": 82,
+     "y": 1000,
+     "at": 3.6
+    }
+   ]
+  },
+  {
+   "vo": "Kain lembap yang terus bergesekan bisa membuat kulit lecet dan meradang. Suasana hangat dan basah juga disukai jamur.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "drop",
+     "size": 250,
+     "x": 360,
+     "y": 620,
+     "at": 0.1
+    },
+    {
+     "type": "icon",
+     "icon": "meter",
+     "size": 240,
+     "x": 740,
+     "y": 640,
+     "at": 0.5,
+     "rot": -4
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Kain lembap bikin kulit",
+      "*lecet* & *meradang*"
+     ],
+     "size": 80,
+     "y": 990,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Hangat & basah disukai jamur"
+     ],
+     "size": 56,
+     "y": 1230,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 5.6
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Sp.DVE via Kaltim Post, 24/11/2026",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "Ini tiga masalah yang paling sering muncul.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-04-mencatat-clipboard",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Ini 3 masalah yang\npaling sering muncul"
+    }
+   ]
+  },
+  {
+   "vo": "Radang di lipatan kulit. Jamur, termasuk kurap di selangkangan. Dan kutu air di kaki.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Yang sering *muncul:*"
+     ],
+     "size": 86,
+     "y": 440,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "drop",
+     "text": "Radang di\nlipatan kulit",
+     "y": 780,
+     "h": 210,
+     "at": 0.4,
+     "from": -1,
+     "accent": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Jamur, termasuk\nkurap selangkangan",
+     "y": 1030,
+     "h": 210,
+     "at": 2.4,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "walk",
+     "text": "Kutu air\ndi kaki",
+     "y": 1280,
+     "h": 210,
+     "at": 5.0,
+     "from": -1,
+     "accent": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Sp.DVE via Kaltim Post, 24/11/2026",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Kuncinya, jaga kulit tetap kering.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-09-oke-mengedip",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Kuncinya: jaga\nkulit tetap kering!"
+    }
+   ]
+  },
+  {
+   "vo": "Pakai baju yang benar-benar kering. Segera ganti baju yang basah kena hujan atau keringat. Keringkan kaki dan sela jari setelah mandi. Pilih pakaian bersih dan longgar.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Biasakan *ini:*"
+     ],
+     "size": 92,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Pakai baju yang\nbenar-benar kering",
+     "y": 650,
+     "h": 190,
+     "size": 50,
+     "at": 0.4,
+     "from": -1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "recycle",
+     "text": "Segera ganti baju\nbasah / berkeringat",
+     "y": 870,
+     "h": 190,
+     "size": 48,
+     "at": 2.8,
+     "from": 1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "walk",
+     "text": "Keringkan kaki &\nsela jari",
+     "y": 1090,
+     "h": 190,
+     "size": 50,
+     "at": 6.4,
+     "from": -1
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Pilih pakaian\nbersih & longgar",
+     "y": 1310,
+     "h": 190,
+     "size": 50,
+     "at": 9.4,
+     "from": 1,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kaltim Post 24/11/2026; Antara",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Jujur, kamu pernah pakai baju setengah kering? Jawab di kolom komentar, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Pernah pakai baju",
+      "*setengah_kering?*"
+     ],
+     "size": 84,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Jawab jujur di kolom komentar"
+     ],
+     "size": 56,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ],
+     "y": 800,
+     "at": 3.2
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 3.8
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "MITOS VS FAKTA",
+  "lines": [
+   "Baju setengah kering",
+   "*kering_sendiri?*",
+   "Tunggu dulu!"
+  ],
+  "pose": "dokter-11-bingung-bertanya",
+  "accent": [
+   31,
+   111,
+   209
+  ],
+  "badge": [
+   "3",
+   "masalah kulit"
+  ]
+ },
+ "caption": "Jemuran nggak kering-kering, akhirnya baju setengah kering tetap dipakai, \"nanti juga kering sendiri di badan\" 🤔 Menurut dokter spesialis kulit, kebiasaan ini sebaiknya dihentikan.\n\nKain lembap yang terus bergesekan bisa membuat kulit lecet, perih, dan meradang. Suasana hangat dan basah juga jadi tempat yang disukai jamur.\n\nMasalah kulit yang sering muncul:\n⚠️ Radang di lipatan kulit (intertrigo)\n⚠️ Jamur, termasuk kurap di selangkangan\n⚠️ Kutu air di kaki\n\nBiasakan ini selama musim hujan:\n✅ Pakai baju yang benar-benar kering\n✅ Segera ganti baju yang basah kena hujan atau keringat\n✅ Keringkan kaki & sela jari setelah mandi\n✅ Pilih pakaian bersih, kering, dan longgar\n\nKalau gatal, ruam, atau lecet tidak membaik, periksakan ke dokter, jangan diobati sembarangan.\n\nSimpan dan bagikan ke teman kos atau keluarga yang suka nekat pakai baju setengah kering 👇\n\nSumber: Dr. dr. I Gusti Nyoman Darmaputra, Sp.DVE (dikutip Kaltim Post, 24/11/2026); Antara News.\n\n#MusimHujan #KesehatanKulit #KutuAir #JamurKulit #MitosKesehatan #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Musim hujan gini, jemuran kamu biasanya gimana? 🌧️\n\na) Nunggu sampai benar-benar kering\nb) Disetrika biar cepat kering\nc) Setengah kering, langsung pakai aja\n\nJawab pakai huruf di komentar. Penasaran tim mana yang paling banyak di sini.\n"
+}

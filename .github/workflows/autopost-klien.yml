@@ -1,0 +1,35 @@
+name: Autopost Klien Kelola Sosmed
+
+# Posting materi klien dokter (infodokter.id → Kelola Sosmed) yang sudah di-ACC & terjadwal.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = hanya tampilkan antrean, tanpa memposting"
+        required: false
+        default: "1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: autopost-klien
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Posting materi klien
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: python scripts/autopost_klien.py

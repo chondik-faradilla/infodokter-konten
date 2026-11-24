@@ -22,3 +22,13 @@ Antrean konten dan autopost media sosial **INFODOKTER.ID** (Instagram @inidokter
 
 ## Uji manual
 Tab **Actions → Autopost INFODOKTER → Run workflow**, isi `dry_run` = `1` untuk uji tanpa memposting.
+
+## Autopost klien Kelola Sosmed (dokter klien MARKBRO)
+- Workflow `autopost-klien.yml` jalan **tiap 30 menit**: mengambil materi berstatus *Terjadwal* yang jadwalnya sudah lewat
+  dari Supabase infodokter (`sosmed_materi`), memposting ke Instagram & Facebook Page akun dokter, lalu menandainya *Terposting*.
+- Media final diunggah tim lewat Admin → Kelola Sosmed (bucket `sosmed-media`), dihapus otomatis setelah tayang.
+- Syarat per dokter: akun IG + FB Page dokter dibagikan ke Business Portfolio infodokter dan di-assign ke system user
+  infodokter-bot; ID akun IG & Page diisi di Admin → Kelola Sosmed → Pengaturan klien.
+- Secret tambahan: `SUPABASE_SERVICE_ROLE_KEY` (Supabase → Project Settings → API Keys → service_role / secret).
+- Gagal posting: pesan muncul di Admin pada materi itu; perbaiki lalu simpan ulang sebagai *Terjadwal* untuk mencoba lagi.
+- Threads klien belum didukung (butuh token per akun dokter).

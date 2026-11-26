@@ -1,0 +1,344 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  31,
+  111,
+  209
+ ],
+ "scenes": [
+  {
+   "vo": "Menurut Kemenkes, ada anak yang sudah mulai mencoba vape sejak usia sembilan sampai sepuluh tahun.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Ada anak yang mulai",
+      "mencoba vape sejak usia"
+     ],
+     "size": 66,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 9,
+     "suffix": "–10",
+     "size": 290,
+     "y": 790,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 2.6,
+     "count": 1.0,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "*tahun*"
+     ],
+     "size": 96,
+     "y": 1040,
+     "at": 3.4
+    },
+    {
+     "type": "icon",
+     "icon": "shield",
+     "size": 220,
+     "x": 540,
+     "y": 1270,
+     "at": 3.8,
+     "rot": 4
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes via IDN Times, 4/11/2026",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Banyak yang mengira vape lebih aman dari rokok. Padahal, menurut Kemenkes, vape tidak lebih aman.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Banyak yang mengira",
+      "vape *lebih_aman*..."
+     ],
+     "size": 90,
+     "y": 620,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Faktanya:",
+      "*tidak_lebih_aman*"
+     ],
+     "size": 90,
+     "y": 1000,
+     "at": 3.8
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes via Republika, 25/11/2026",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "Isinya sama-sama nikotin, zat yang bikin ketagihan. Dan asapnya bukan sekadar uap air.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "drop",
+     "size": 260,
+     "x": 540,
+     "y": 620,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Isinya *nikotin*",
+      "zat yang bikin ketagihan"
+     ],
+     "size": 86,
+     "y": 1000,
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Asapnya bukan sekadar uap air"
+     ],
+     "size": 56,
+     "y": 1240,
+     "at": 4.4,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes (Republika, 25/11/2026); BPOM (IDN Times)",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Yuk, cek mitosnya satu per satu.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-11-bingung-bertanya",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Mitos atau fakta?\nYuk, kita cek!"
+    }
+   ]
+  },
+  {
+   "vo": "Katanya cuma uap air, faktanya bukan uap air biasa. Katanya lebih aman dari rokok, faktanya tidak lebih aman. Katanya nggak bikin nagih, padahal ada nikotin yang adiktif.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Mitos vs *fakta*"
+     ],
+     "size": 92,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "drop",
+     "text": "Cuma uap air?\nBukan uap air biasa",
+     "y": 690,
+     "h": 220,
+     "at": 0.5,
+     "from": -1,
+     "accent": [
+      22,
+      179,
+      163
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Lebih aman dari rokok?\nTidak lebih aman",
+     "y": 960,
+     "h": 220,
+     "at": 4.4,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      226,
+      76,
+      75
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "meter",
+     "text": "Nggak bikin nagih?\nAda nikotin adiktif",
+     "y": 1230,
+     "h": 220,
+     "at": 9.0,
+     "from": -1,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes & BPOM (Republika 25/11; IDN Times 4/11/2026)",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Rasa buah bukan berarti aman.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-02-tangan-bersedekap",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Rasa buah bukan\nberarti aman"
+    }
+   ]
+  },
+  {
+   "vo": "Yang bisa kita lakukan: ajak anak ngobrol soal vape tanpa menghakimi. Beri contoh, tidak merokok atau nge-vape di rumah. Dan kalau ingin berhenti, minta bantuan tenaga kesehatan di puskesmas.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Yang bisa kita *lakukan:*"
+     ],
+     "size": 84,
+     "y": 430,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Ajak anak ngobrol\ntanpa menghakimi",
+     "y": 690,
+     "h": 210,
+     "at": 0.6,
+     "from": -1,
+     "size": 48,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Beri contoh: tidak\nmerokok/vape di rumah",
+     "y": 950,
+     "h": 210,
+     "at": 4.6,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      240,
+      150,
+      60
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "clinic",
+     "text": "Mau berhenti? Minta\nbantuan nakes",
+     "y": 1210,
+     "h": 210,
+     "at": 8.6,
+     "from": -1,
+     "size": 48,
+     "accent": [
+      22,
+      179,
+      163
+     ]
+    }
+   ]
+  },
+  {
+   "vo": "Menurutmu, vape lebih aman, atau sama saja dengan rokok? Jawab di kolom komentar, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Vape lebih aman, atau",
+      "*sama_saja* dengan rokok?"
+     ],
+     "size": 80,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Jawab di kolom komentar"
+     ],
+     "size": 58,
+     "y": 800,
+     "at": 1.0,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 1.6
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "MITOS VS FAKTA",
+  "lines": [
+   "Vape lebih aman",
+   "*dari_rokok?*"
+  ],
+  "pose": "dokter-11-bingung-bertanya",
+  "accent": [
+   31,
+   111,
+   209
+  ],
+  "badge": [
+   "9–10 th",
+   "usia anak mulai coba vape"
+  ]
+ },
+ "caption": "Ada anak yang sudah mulai mencoba vape sejak usia 9–10 tahun, menurut Kemenkes 😟 Dan masih banyak yang mengira vape lebih aman dari rokok.\n\nMitos vs fakta:\n❌ \"Cuma uap air\" → asap vape bukan sekadar uap air biasa\n❌ \"Lebih aman dari rokok\" → Kemenkes: vape tidak lebih aman\n❌ \"Nggak bikin nagih\" → isinya nikotin, zat yang adiktif\n\nYang bisa kita lakukan:\n✅ Ajak anak ngobrol soal vape tanpa menghakimi\n✅ Beri contoh: tidak merokok/nge-vape di rumah\n✅ Mau berhenti? Minta bantuan tenaga kesehatan di puskesmas\n\nMenurutmu, vape lebih aman atau sama saja dengan rokok? Jawab di komentar 👇 Bagikan ke orang tua dan kakak yang perlu tahu.\n\nSumber: dr. Siti Nadia Tarmizi, Direktur PTM Kemenkes (Republika, 25/11/2026; IDN Times, 4/11/2026) & BPOM (IDN Times, 4/11/2026).\n\n#Vape #RokokElektrik #BahayaVape #MitosFakta #Remaja #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Pertanyaan buat yang pernah atau masih nge-vape: dulu awalnya mulai karena apa? 💨\n\na) Diajak teman\nb) Penasaran sama rasanya\nc) Katanya lebih aman dari rokok\n\nJawab pakai huruf aja di komentar. Penasaran alasan paling banyak yang mana.\n"
+}

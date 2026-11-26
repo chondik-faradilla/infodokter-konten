@@ -1,0 +1,390 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  226,
+  76,
+  75
+ ],
+ "scenes": [
+  {
+   "vo": "Diperkirakan ada lima ratus enam puluh empat ribu orang hidup dengan HIV di Indonesia.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Perkiraan orang dengan HIV",
+      "di Indonesia tahun 2025"
+     ],
+     "size": 66,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 564000,
+     "size": 230,
+     "y": 780,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.5,
+     "count": 1.8
+    },
+    {
+     "type": "text",
+     "lines": [
+      "orang *hidup_dengan_HIV*"
+     ],
+     "size": 84,
+     "y": 1020,
+     "at": 1.4
+    },
+    {
+     "type": "icon",
+     "icon": "clinic",
+     "size": 240,
+     "x": 540,
+     "y": 1270,
+     "at": 1.8
+    },
+    {
+     "type": "source",
+     "text": "Sumber: estimasi Kemenkes 2025 (CNN Indonesia, 4/12/2025)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Tapi sekitar sepertiganya belum tahu statusnya. Padahal, Hari AIDS Sedunia tinggal empat hari lagi.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Tapi sekitar"
+     ],
+     "size": 76,
+     "y": 520,
+     "at": 0.1,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "text",
+     "lines": [
+      "*1_dari_3*",
+      "belum tahu statusnya"
+     ],
+     "size": 92,
+     "y": 760,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "lines": [
+      "1 Desember: Hari AIDS Sedunia"
+     ],
+     "size": 56,
+     "y": 1120,
+     "at": 3.4,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI, data 2025 (63–68% sudah tahu status)",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "vo": "Status HIV tidak bisa diketahui hanya dengan melihat. Tanpa gejala pun, virusnya bisa menular. Satu-satunya cara memastikan: tes.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "clinic",
+     "size": 260,
+     "x": 340,
+     "y": 620,
+     "at": 0.1
+    },
+    {
+     "type": "icon",
+     "icon": "check",
+     "size": 220,
+     "x": 740,
+     "y": 640,
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Tidak bisa diketahui",
+      "*hanya_dari_melihat*"
+     ],
+     "size": 84,
+     "y": 980,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Cara memastikannya: tes HIV"
+     ],
+     "size": 56,
+     "y": 1230,
+     "at": 6.2,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Yuk, luruskan tiga fakta ini.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-07-menjelaskan-presentasi",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Yuk, luruskan\n3 fakta ini!"
+    }
+   ]
+  },
+  {
+   "vo": "Makan dan berbagi alat makan tidak menularkan HIV. Memakai kamar mandi bersama juga tidak. Dan HIV bisa dikendalikan dengan terapi antiretroviral.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "3 fakta *penting:*"
+     ],
+     "size": 88,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "food",
+     "text": "Berbagi alat makan:\ntidak menular",
+     "y": 690,
+     "h": 220,
+     "at": 0.5,
+     "from": -1,
+     "accent": [
+      22,
+      179,
+      163
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "tub",
+     "text": "Kamar mandi bersama:\ntidak menular",
+     "y": 960,
+     "h": 220,
+     "at": 4.0,
+     "from": 1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "HIV bisa dikendalikan\ndengan terapi ARV",
+     "y": 1230,
+     "h": 220,
+     "at": 6.6,
+     "from": -1,
+     "size": 48,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI (2021; 25/7/2026)",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Tes itu tanda peduli, bukan aib.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-15-konsultasi-online",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Tes itu tanda\npeduli, bukan aib"
+    }
+   ]
+  },
+  {
+   "vo": "Tes HIV bila punya faktor risiko atau disarankan tenaga kesehatan. Ibu hamil, tes saat periksa kehamilan. Tanyakan layanan tes di puskesmas atau rumah sakit. Dan hentikan stigma pada ODHIV.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Yang bisa kamu *lakukan:*"
+     ],
+     "size": 84,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Tes HIV bila berisiko\natau disarankan nakes",
+     "y": 650,
+     "h": 190,
+     "at": 0.5,
+     "from": -1,
+     "size": 46,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "calendar",
+     "text": "Ibu hamil: tes saat\nperiksa kehamilan",
+     "y": 870,
+     "h": 190,
+     "at": 5.0,
+     "from": 1,
+     "size": 48,
+     "accent": [
+      240,
+      150,
+      60
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "clinic",
+     "text": "Tanya layanan tes di\npuskesmas/rumah sakit",
+     "y": 1090,
+     "h": 190,
+     "at": 8.0,
+     "from": -1,
+     "size": 46,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Stop stigma\npada ODHIV",
+     "y": 1310,
+     "h": 190,
+     "at": 11.6,
+     "from": 1,
+     "size": 50,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI (25/7/2026; 25/11/2025)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Menurutmu, kenapa orang masih takut tes HIV? Tulis pendapatmu di kolom komentar, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Kenapa orang masih",
+      "*takut* tes HIV?"
+     ],
+     "size": 86,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Tulis pendapatmu di komentar"
+     ],
+     "size": 56,
+     "y": 800,
+     "at": 1.0,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 1.6
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "JELANG HARI AIDS SEDUNIA",
+  "lines": [
+   "1 dari 3 ODHIV",
+   "*belum_tahu*",
+   "statusnya"
+  ],
+  "pose": "dokter-07-menjelaskan-presentasi",
+  "accent": [
+   226,
+   76,
+   75
+  ],
+  "badge": [
+   "564 ribu",
+   "estimasi ODHIV 2025"
+  ]
+ },
+ "caption": "Diperkirakan ada 564 ribu orang hidup dengan HIV (ODHIV) di Indonesia, dan sekitar sepertiganya belum tahu statusnya 😟 Senin depan, 1 Desember, adalah Hari AIDS Sedunia.\n\nStatus HIV tidak bisa diketahui hanya dengan melihat. Tanpa gejala pun virusnya bisa menular, jadi satu-satunya cara memastikan adalah tes.\n\n3 fakta yang perlu diluruskan:\n✅ Makan bersama & berbagi alat makan tidak menularkan HIV\n✅ Memakai kamar mandi bersama juga tidak menularkan HIV\n✅ HIV bisa dikendalikan dengan terapi antiretroviral (ARV)\n\nYang bisa kamu lakukan:\n1️⃣ Tes HIV bila punya faktor risiko atau disarankan tenaga kesehatan\n2️⃣ Ibu hamil, tes saat periksa kehamilan\n3️⃣ Tanyakan layanan tes di puskesmas atau rumah sakit\n4️⃣ Hentikan stigma pada ODHIV\n\nPunya pertanyaan soal HIV? Konsultasikan ke tenaga kesehatan atau hubungi Halo Kemenkes 1500-567.\n\nMenurutmu, kenapa orang masih takut tes HIV? Tulis di komentar 👇 Simpan & bagikan biar makin banyak yang paham.\n\nSumber: Kemenkes RI (estimasi ODHIV 2025, dikutip CNN Indonesia 4/12/2025 & Akurat 26/11/2025; rilis Kemenkes 25/7/2026; \"Kemenkes Tegaskan HIV Tidak Mudah Menular\", NU Online 1/12/2021).\n\n#HariAIDSSedunia #HIV #TesHIV #StopStigma #ODHIV #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Jujur aja: kalau ditawari tes HIV gratis besok, kamu mau? 🤔\n\na) Mau, biar tenang\nb) Ragu, takut hasilnya\nc) Malu, takut dilihat orang\n\nMenurutmu apa yang bikin banyak orang masih enggan tes? Ceritain di komentar 👇\n"
+}

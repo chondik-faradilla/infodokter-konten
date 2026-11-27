@@ -38,19 +38,12 @@
     {
      "type": "text",
      "lines": [
-      "Yang berobat cuma *11,2%*"
+      "Yang berobat",
+      "cuma *11,2%*"
      ],
-     "size": 80,
-     "y": 1050,
+     "size": 84,
+     "y": 1100,
      "at": 4.6
-    },
-    {
-     "type": "icon",
-     "icon": "clinic",
-     "size": 220,
-     "x": 540,
-     "y": 1280,
-     "at": 5.0
     },
     {
      "type": "source",
@@ -97,11 +90,11 @@
     {
      "type": "text",
      "lines": [
-      "~70% kehilangan gigi karena",
+      "~70% gigi tanggal karena",
       "*gigi_berlubang*",
       "yang tidak dirawat"
      ],
-     "size": 78,
+     "size": 76,
      "y": 1000,
      "at": 2.0
     },
@@ -247,7 +240,7 @@
     },
     {
      "type": "source",
-     "text": "Sumber: Kemenkes RI & PDGI (11/9/2025); FKG UI (ANTARA, 26/11/2026)",
+     "text": "Sumber: Kemenkes & PDGI (2025); FKG UI (ANTARA, 26/11/2026)",
      "at": 0.6
     }
    ]
@@ -305,7 +298,7 @@
   ],
   "badge": [
    "57%",
-   "penduduk punya masalah gigi"
+   "punya masalah gigi"
   ]
  },
  "caption": "57% penduduk Indonesia mengalami masalah gigi, tapi hanya 11,2% yang mencari pengobatan 🦷 Dan masih banyak yang mengira gigi ompong itu wajar karena tua.\n\nMitos vs fakta:\n❌ \"Ompong itu wajar karena tua\" → sekitar 70% kehilangan gigi terutama karena gigi berlubang yang tidak dirawat\n❌ \"Sakit gigi hilang pakai obat pereda nyeri, beres\" → nyerinya reda, masalah giginya belum selesai\n❌ \"Gigi dicabut nggak perlu diganti\" → gigi di sebelahnya bisa bergeser dan mengunyah jadi kurang efektif\n\nMulai kebiasaan ini:\n✅ Sikat gigi setelah makan, jangan cuma sekitar satu menit\n✅ Tambal gigi berlubang sejak dini\n✅ Periksa rutin ke dokter gigi atau puskesmas, bukan hanya saat sakit\n\nKapan terakhir kamu periksa ke dokter gigi? Jawab jujur di komentar 👇 Bagikan ke keluarga yang suka menunda ke dokter gigi.\n\nSumber: Kemenkes RI, data Survei Kesehatan Indonesia (siaran pers 11/9/2025); Prof. Dr. drg. Lindawati S. Kusdhany, Sp.Pros(K), FKG UI (ANTARA, 26/11/2026).\n\n#KesehatanGigi #GigiBerlubang #MitosFakta #SikatGigi #DokterGigi #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",

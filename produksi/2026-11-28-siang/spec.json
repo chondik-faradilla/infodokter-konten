@@ -1,0 +1,360 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  226,
+  76,
+  75
+ ],
+ "scenes": [
+  {
+   "vo": "Indonesia masih peringkat kedua kasus TBC terbanyak di dunia. Perkiraannya, sekitar satu juta delapan puluh ribu kasus.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Indonesia peringkat 2 dunia,",
+      "perkiraan kasus mencapai"
+     ],
+     "size": 66,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 1080000,
+     "size": 190,
+     "y": 770,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 2.6,
+     "count": 1.8
+    },
+    {
+     "type": "text",
+     "lines": [
+      "kasus *TBC*"
+     ],
+     "size": 90,
+     "y": 1000,
+     "at": 3.2
+    },
+    {
+     "type": "icon",
+     "icon": "clinic",
+     "size": 240,
+     "x": 540,
+     "y": 1260,
+     "at": 3.6
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Menkes, WHO Global TB Report (Liputan6, 23/10/2026)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Yang bikin waspada: sekitar tiga puluh lima persen pasien TBC tidak menunjukkan gejala yang khas.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Yang bikin waspada..."
+     ],
+     "size": 76,
+     "y": 520,
+     "at": 0.1,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "number",
+     "value": 35,
+     "suffix": "%",
+     "size": 280,
+     "y": 780,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 1.4,
+     "count": 1.3,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "pasien TBC",
+      "*tanpa_gejala_khas*"
+     ],
+     "size": 86,
+     "y": 1080,
+     "at": 2.4
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Survei prevalensi TBC nasional (JurnalPost, 25/11/2026)",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "TBC menular lewat udara, saat penderita batuk, bersin, atau berbicara. Karena itu, banyak kasus belum ketahuan.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "shield",
+     "size": 260,
+     "x": 540,
+     "y": 620,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "TBC menular lewat *udara*",
+      "saat batuk, bersin, bicara"
+     ],
+     "size": 80,
+     "y": 1000,
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Banyak kasus belum ketahuan"
+     ],
+     "size": 56,
+     "y": 1240,
+     "at": 4.6,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    }
+   ]
+  },
+  {
+   "vo": "Kenali dulu tanda-tandanya, ya.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-12-baca-rontgen",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Kenali dulu\ntanda-tandanya!"
+    }
+   ]
+  },
+  {
+   "vo": "Batuk yang tak kunjung sembuh, kadang disertai darah. Demam dan keringat di malam hari. Dan berat badan turun tanpa sebab yang jelas.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Waspadai *tanda_ini:*"
+     ],
+     "size": 86,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Batuk tak kunjung\nsembuh",
+     "y": 690,
+     "h": 220,
+     "at": 0.5,
+     "from": -1
+    },
+    {
+     "type": "card",
+     "icon": "meter",
+     "text": "Demam & keringat\nmalam hari",
+     "y": 960,
+     "h": 220,
+     "at": 4.1,
+     "from": 1,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "scale",
+     "text": "Berat badan turun\ntanpa sebab jelas",
+     "y": 1230,
+     "h": 220,
+     "at": 6.9,
+     "from": -1
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes & WHO (JurnalPost, 25/11/2026)",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Kabar baiknya, TBC bisa disembuhkan dengan pengobatan sampai tuntas.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-07-menjelaskan-presentasi",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Kabar baiknya:\nTBC bisa sembuh!"
+    }
+   ]
+  },
+  {
+   "vo": "Batuk tak kunjung sembuh? Periksa ke puskesmas. Kalau ada keluarga yang terdiagnosis, ikut periksa. Dukung pasien minum obat sampai tuntas, tanpa stigma. Dan tutup mulut saat batuk.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Yang bisa kamu *lakukan:*"
+     ],
+     "size": 86,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "clinic",
+     "text": "Batuk tak sembuh?\nPeriksa ke puskesmas",
+     "y": 650,
+     "h": 190,
+     "at": 0.5,
+     "from": -1,
+     "size": 48,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Keluarga pasien\nikut diperiksa",
+     "y": 870,
+     "h": 190,
+     "at": 3.7,
+     "from": 1,
+     "size": 50,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "calendar",
+     "text": "Dukung minum obat\nsampai tuntas",
+     "y": 1090,
+     "h": 190,
+     "at": 7.2,
+     "from": -1,
+     "size": 50
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Tutup mulut\nsaat batuk",
+     "y": 1310,
+     "h": 190,
+     "at": 11.3,
+     "from": 1,
+     "size": 50,
+     "accent": [
+      18,
+      48,
+      94
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes & WHO (JurnalPost, 25/11/2026)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Batuk lama, jangan tunda periksa. Menurutmu, kenapa masih banyak yang malu periksa TBC? Tulis di komentar, ya.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Batuk lama?",
+      "*jangan_tunda_periksa*"
+     ],
+     "size": 82,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Kenapa masih banyak yang malu",
+      "periksa TBC? Tulis di komentar"
+     ],
+     "size": 54,
+     "y": 820,
+     "at": 2.6,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 3.0
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "WASPADA TBC",
+  "lines": [
+   "Batuk tak sembuh-sembuh?",
+   "*jangan_sepelekan*"
+  ],
+  "pose": "dokter-12-baca-rontgen",
+  "accent": [
+   226,
+   76,
+   75
+  ],
+  "badge": [
+   "35%",
+   "pasien TBC tanpa gejala khas"
+  ]
+ },
+ "caption": "Indonesia masih peringkat ke-2 kasus TBC terbanyak di dunia, dengan perkiraan sekitar 1.080.000 kasus 😷 Dan sekitar 35% pasien TBC ternyata tidak menunjukkan gejala yang khas.\n\nTBC menular lewat udara saat penderita batuk, bersin, atau berbicara. Waspadai tandanya:\n✅ Batuk tak kunjung sembuh (kadang disertai darah)\n✅ Demam & keringat di malam hari\n✅ Berat badan turun tanpa sebab jelas\n\nYang bisa kamu lakukan:\n1️⃣ Batuk tak sembuh? Periksa ke puskesmas atau dokter\n2️⃣ Ada keluarga yang terdiagnosis? Ikut periksa\n3️⃣ Dukung pasien minum obat sampai tuntas, tanpa stigma\n4️⃣ Tutup mulut saat batuk & biarkan udara rumah berganti\n\nKabar baiknya, TBC bisa disembuhkan dengan pengobatan sampai tuntas sesuai anjuran dokter.\n\nMenurutmu, kenapa masih banyak yang malu periksa TBC? Tulis di komentar 👇 Simpan & bagikan ke keluarga.\n\nSumber: Menkes Budi G. Sadikin mengutip WHO Global TB Report (Liputan6, 23/10/2026); WHO & Kemenkes, talkshow TB Hari Kesehatan Nasional 2026 (JurnalPost, 25/11/2026).\n\n#TBC #Tuberkulosis #StopTBC #BatukLama #CekKesehatan #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Kalau kamu batuk sudah berminggu-minggu nggak sembuh, biasanya kamu ngapain? 🤧\n\na) Langsung periksa\nb) Nunggu sembuh sendiri\nc) Malu periksa, takut dikira TBC\n\nJawab pakai huruf di komentar. Penasaran mana yang paling banyak.\n"
+}

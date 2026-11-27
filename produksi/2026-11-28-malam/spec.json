@@ -1,0 +1,313 @@
+{
+ "voice": "Achernar",
+ "vo_style": "Kamu narator video edukasi kesehatan INFODOKTER. Bacakan naskah berikut dalam Bahasa Indonesia dengan suara hangat, tenang, jelas, tempo sedang, beri jeda singkat antar paragraf:",
+ "accent": [
+  31,
+  111,
+  209
+ ],
+ "scenes": [
+  {
+   "vo": "Lima puluh tujuh persen penduduk Indonesia mengalami masalah gigi. Tapi hanya sebelas koma dua persen yang mencari pengobatan.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Penduduk Indonesia yang",
+      "punya masalah gigi"
+     ],
+     "size": 66,
+     "y": 520,
+     "at": 0.1
+    },
+    {
+     "type": "number",
+     "value": 57,
+     "suffix": "%",
+     "size": 280,
+     "y": 790,
+     "color": [
+      226,
+      76,
+      75
+     ],
+     "at": 0.4,
+     "count": 1.4,
+     "dots": false
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Yang berobat cuma *11,2%*"
+     ],
+     "size": 80,
+     "y": 1050,
+     "at": 4.6
+    },
+    {
+     "type": "icon",
+     "icon": "clinic",
+     "size": 220,
+     "x": 540,
+     "y": 1280,
+     "at": 5.0
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Survei Kesehatan Indonesia, Kemenkes (11/9/2025)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Banyak yang menganggap gigi ompong itu wajar, tanda bertambah tua. Padahal belum tentu.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "“Gigi ompong itu wajar,",
+      "tanda sudah tua”"
+     ],
+     "size": 84,
+     "y": 640,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Padahal *belum_tentu*"
+     ],
+     "size": 90,
+     "y": 1040,
+     "at": 4.6
+    }
+   ]
+  },
+  {
+   "vo": "Menurut guru besar kedokteran gigi U-I, sekitar tujuh puluh persen kehilangan gigi terutama karena gigi berlubang yang tidak dirawat.",
+   "elements": [
+    {
+     "type": "icon",
+     "icon": "food",
+     "size": 250,
+     "x": 540,
+     "y": 600,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "~70% kehilangan gigi karena",
+      "*gigi_berlubang*",
+      "yang tidak dirawat"
+     ],
+     "size": 78,
+     "y": 1000,
+     "at": 2.0
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Prof. Lindawati S. Kusdhany, FKG UI (ANTARA, 26/11/2026)",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "vo": "Yuk, cek mitosnya satu per satu.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-11-bingung-bertanya",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Yuk, cek mitosnya\nsatu per satu!"
+    }
+   ]
+  },
+  {
+   "vo": "Katanya ompong itu wajar karena tua, faktanya penyebab utamanya gigi berlubang. Katanya sakit gigi hilang pakai obat pereda nyeri, faktanya masalahnya belum selesai. Katanya gigi yang dicabut tak perlu diganti, faktanya gigi sebelahnya bisa bergeser.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "*Mitos* vs fakta"
+     ],
+     "size": 90,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Ompong bukan cuma\nkarena faktor usia",
+     "y": 690,
+     "h": 220,
+     "at": 0.5,
+     "from": -1
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Nyeri hilang, masalah\ngigi belum selesai",
+     "y": 960,
+     "h": 220,
+     "at": 6.6,
+     "from": 1,
+     "size": 46,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "food",
+     "text": "Gigi hilang perlu\ndiganti, biar tak geser",
+     "y": 1230,
+     "h": 220,
+     "at": 13.4,
+     "from": -1,
+     "size": 46
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes (11/9/2025) & FKG UI (ANTARA, 26/11/2026)",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "vo": "Rawat dari sekarang, sebelum telanjur.",
+   "min": 3.6,
+   "elements": [
+    {
+     "type": "mascot",
+     "pose": "dokter-09-oke-mengedip",
+     "size": 800,
+     "y": 1130,
+     "at": 0.1,
+     "bubble": "Rawat dari sekarang,\nsebelum telanjur!"
+    }
+   ]
+  },
+  {
+   "vo": "Sikat gigi setelah makan, jangan cuma satu menit. Tambal gigi berlubang sejak dini. Dan periksa rutin ke dokter gigi, bukan hanya saat sakit.",
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Mulai *kebiasaan_ini:*"
+     ],
+     "size": 86,
+     "y": 420,
+     "at": 0.1
+    },
+    {
+     "type": "card",
+     "icon": "check",
+     "text": "Sikat gigi setelah\nmakan, jangan kilat",
+     "y": 780,
+     "h": 210,
+     "at": 0.5,
+     "from": -1,
+     "size": 48,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "shield",
+     "text": "Tambal gigi berlubang\nsejak dini",
+     "y": 1030,
+     "h": 210,
+     "at": 4.0,
+     "from": 1,
+     "size": 48,
+     "accent": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "card",
+     "icon": "calendar",
+     "text": "Periksa rutin, bukan\ncuma saat sakit",
+     "y": 1280,
+     "h": 210,
+     "at": 6.6,
+     "from": -1,
+     "size": 48
+    },
+    {
+     "type": "source",
+     "text": "Sumber: Kemenkes RI & PDGI (11/9/2025); FKG UI (ANTARA, 26/11/2026)",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "vo": "Kapan terakhir kamu periksa ke dokter gigi? Jawab jujur di komentar, ya. Bagikan ke keluarga.",
+   "tail": 2.5,
+   "elements": [
+    {
+     "type": "text",
+     "lines": [
+      "Kapan terakhir kamu",
+      "ke *dokter_gigi?*"
+     ],
+     "size": 82,
+     "y": 560,
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "lines": [
+      "Jawab jujur di komentar"
+     ],
+     "size": 58,
+     "y": 820,
+     "at": 2.6,
+     "kind": "body",
+     "weight": 800,
+     "color": [
+      31,
+      111,
+      209
+     ]
+    },
+    {
+     "type": "logo",
+     "w": 780,
+     "y": 1120,
+     "at": 3.0
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "kicker": "MITOS VS FAKTA",
+  "lines": [
+   "Ompong itu wajar",
+   "*karena_tua?*"
+  ],
+  "pose": "dokter-11-bingung-bertanya",
+  "accent": [
+   31,
+   111,
+   209
+  ],
+  "badge": [
+   "57%",
+   "penduduk punya masalah gigi"
+  ]
+ },
+ "caption": "57% penduduk Indonesia mengalami masalah gigi, tapi hanya 11,2% yang mencari pengobatan 🦷 Dan masih banyak yang mengira gigi ompong itu wajar karena tua.\n\nMitos vs fakta:\n❌ \"Ompong itu wajar karena tua\" → sekitar 70% kehilangan gigi terutama karena gigi berlubang yang tidak dirawat\n❌ \"Sakit gigi hilang pakai obat pereda nyeri, beres\" → nyerinya reda, masalah giginya belum selesai\n❌ \"Gigi dicabut nggak perlu diganti\" → gigi di sebelahnya bisa bergeser dan mengunyah jadi kurang efektif\n\nMulai kebiasaan ini:\n✅ Sikat gigi setelah makan, jangan cuma sekitar satu menit\n✅ Tambal gigi berlubang sejak dini\n✅ Periksa rutin ke dokter gigi atau puskesmas, bukan hanya saat sakit\n\nKapan terakhir kamu periksa ke dokter gigi? Jawab jujur di komentar 👇 Bagikan ke keluarga yang suka menunda ke dokter gigi.\n\nSumber: Kemenkes RI, data Survei Kesehatan Indonesia (siaran pers 11/9/2025); Prof. Dr. drg. Lindawati S. Kusdhany, Sp.Pros(K), FKG UI (ANTARA, 26/11/2026).\n\n#KesehatanGigi #GigiBerlubang #MitosFakta #SikatGigi #DokterGigi #InfoKesehatan #EdukasiKesehatan #infodokter #inidokterku\n",
+ "threads": "Jujur-jujuran yuk: kapan terakhir kamu ke dokter gigi? 🦷\n\na) Kurang dari 6 bulan lalu\nb) Setahun lebih\nc) Cuma kalau sudah sakit banget\nd) Belum pernah sama sekali\n\nJawab pakai huruf di komentar. Kalau ada cerita lucu atau horor di kursi dokter gigi, boleh juga 😅\n"
+}
